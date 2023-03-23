@@ -1,0 +1,73 @@
+
+# 1- =====Database 
+		
+	hospital system
+			- patients CRUD done
+			- id (pk)
+			- name
+			- description	
+			- age 
+			- gender
+			- address
+			- phone
+			- doctorId(fk)
+
+
+		- doctors CRUD done 
+			- id(pk)
+			- name
+			- age
+			- gender
+			- phone
+			- address
+			- filedID(fk)
+
+ 
+		- fileds CRUD done
+			- id(pk)
+			- name
+
+		- employees CRUD
+			- id(pk)
+			- name
+			- age
+			- gender
+			- phone
+			- address
+			- departmentId(fk)
+
+
+		- department	 CRUD
+			- id(pk)
+			- name
+
+	
+#=========================================
+
+# 2-    authentication (login)  done
+								admin
+									- id(pk)
+									- name
+									- username
+									- password
+									- role enum(['admin' , 'doctor' , employee])
+									
+#       authorization 
+					admin           CRUD(doctor)  , CRUD (patient) , CRUD (filed)   
+					doctor          doctor (R)    , Patient(CRUD)  ,  field( R )
+					employee        doctor (R)    , patient (CRUD) , filed (R)
+
+
+#========================
+
+#3- github 
+
+#============================
+
+10 pm  =>> 2am 
+
+
+
+
+
+
